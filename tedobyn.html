@@ -1,0 +1,63 @@
+<html>
+  <!--source: https://trinket.io/html/b33e4f4ca8 -->
+  <head>
+    <link rel="stylesheet" href="./css/savedate.css">
+    <!--<script src="script.js"></script>-->
+    <script src="./js/prefixfree.js"></script>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+		function open_card() {
+		  document.getElementById('outside').className = 'open-card';
+		}
+
+		function close_card() {
+		  document.getElementById('outside').className = '';
+		}
+    </script>
+  
+  </head>
+
+  <body>
+<section id="card">
+    <div id="outside">
+    
+      <p id="outside-title" class="ja" style="color:white">
+        Have you heard?      </p>
+
+      <img id="outside-pic" src="./img/haveyouheard.jpg">
+
+      <p>
+        <button onclick="open_card()" class="ja-sm">Click to open</button>
+      </p>
+
+    </div>
+  
+    <div id="inside">
+    
+      <p id="inside-title" class="ja">
+        Have you heard!
+      </p>
+      
+      <video width="50%" controls style="border-radius:12px">
+		<source src="./img/savethedate.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	  </video>
+      
+      <p id="message" class="ja">
+        Please save the date. Additional details and invitation to follow. 
+      </p>
+
+      <p>
+        <button onclick="close_card()" class="ja-sm">Click to close</button>
+      </p>
+      
+    </div>
+</section>
+<footer id="footer">
+  <img src="./img/logo-lg.png" alt="bearwings" 
+  class="footer"/>
+</footer>
+</body>
+</html>
