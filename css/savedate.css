@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'JustAnotherHand';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/JustAnotherHand-Regular.ttf") format("truetype");
+}
+.ja {
+  color: #444444;
+  font-family: JustAnotherHand;
+  letter-spacing: 3px;
+  font-size: 24pt;
+  text-align: center;
+}
+.ja-sm {
+  color: #444444;
+  font-family: JustAnotherHand;
+  letter-spacing: 1px;
+  font-size: 12pt;
+  text-align: center;
+}
+#card {
+  padding-bottom: 140px
+}
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: #0d4250;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+#outside-pic {
+  width: 30%;
+  border-radius: 12px;
+}
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+button {
+  background: silver;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/*
+#footer {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  height: 15%;
+}
+*/
+#footer {
+    position: relative;
+    top: 80%;
+	z-index: 2;
+	text-align: center;
+    height: 15%;
+}
+.footer {
+  width: 20%;
+  background-color: #aaaaaa;
+  border-radius: 12px;
+}
