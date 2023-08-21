@@ -2,17 +2,19 @@
     font-size: 15px;
     line-height: 29px;
     color: #303b3a;
-    padding-bottom: 20px
+    padding-bottom: 0px
 }
 
 h1 {
-    font-size: 60px
+    font-size: 60px;
+	margin-top: 20px
 }
 
 h2 {
     font-size: 40px;
     font-weight: 300;
-    color: #303b3a
+    color: #303b3a;
+	margin-top: 20px
 }
 
 h3 {
@@ -21,18 +23,21 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
-    line-height: 29px
+    line-height: 29px;
+	margin-top: 20px
 }
 
 h4 {
-    font-size: 18px
+    font-size: 18px;
+	margin-top: 20px
 }
 
 h5 {
     font-size: 15px;
     color: #303b3a;
     text-transform: uppercase;
-    font-weight: 500
+    font-weight: 500;
+	margin-top: 20px
 }
 
 .btn {
@@ -277,7 +282,8 @@ section .header {
 }
 
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6,.wp7,.wp8,.wp9 {
-    visibility: hidden
+    visibility: hidden;
+	padding-top: 40px;
 }
 
 .wp8,.wp9 {
@@ -469,27 +475,8 @@ header ul.primary-nav li:last-child a {
     padding-right: 0px
 }
 
-header ul.member-actions li {
-    display: inline
-}
-
-header ul.member-actions li a {
-    color: #777777
-}
-
-header ul.member-actions li a:hover {
-    color: #de582c
-}
-
 header .header-nav {
     display: inline-block
-}
-
-header .member-actions {
-    position: absolute;
-    right: 0;
-    top: 41px;
-    transition: all 300ms ease-in-out
 }
 
 .down-arrow {
